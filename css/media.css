@@ -1,0 +1,249 @@
+ @media (min-width: 1024px) and (max-width: 1920px) {
+     .baner {
+         width: 1024px;
+         background-image: url("../imajes/fonlg3.jpg");
+         animation: example 10s infinite ease-in-out;
+     }
+
+     @keyframes example {
+         10% {
+             background-image: url("../imajes/fonlg1.jpg");
+         }
+
+         60% {
+             background-image: url("../imajes/fonlg2.jpg");
+         }
+
+         100% {
+             background-image: url("../imajes/fonlg3.jpg");
+         }
+     }
+ }
+
+ @media (min-width: 640px) and (max-width: 1023px) {
+     .baner {
+         width: 640px;
+         background-image: url("../imajes/fonlg3.jpg");
+         animation: examplemd 10s infinite ease-in-out;
+     }
+
+     @keyframes examplemd {
+         10% {
+             background-image: url("../imajes/fonMD1.jpg");
+         }
+
+         100% {
+             background-image: url("../imajes/fonMD2.jpg");
+         }
+
+     }
+
+     .firstElementBlock {
+         padding: 0 3% 0 3%;
+     }
+
+     .twoElementBlockText p {
+         font-size: 32px;
+         line-height: 25px;
+         flex-direction: column;
+         display: flex;
+     }
+
+     .twoElementBlockTextSpan span:nth-child(3) {
+         font-size: 25px
+     }
+
+     .threeElementBlock a {
+         padding: 0 0 0 10px;
+     }
+
+     .twoElementBlockNumbr p {
+         display: none;
+     }
+
+     .twoElementBlock picture {
+         padding-top: 27px;
+     }
+
+     .twoElementBlock img {
+         opacity: 1;
+         position: relative;
+         animation: exampleaugust 5s linear infinite;
+     }
+
+     @keyframes exampleaugust {
+         0% {
+             right: -30px;
+             opacity: 0;
+         }
+
+         10% {
+             opacity: 1;
+             right: 0px;
+         }
+
+         100% {
+             opacity: 1;
+             right: 0px;
+         }
+     }
+
+ }
+
+ @media (min-width: 280px) and (max-width: 639px) {
+     .firstElementBlock {
+         display: none;
+     }
+
+     .twoElementBlockText {
+         animation: exampletextShow 20s infinite ease-in-out;
+     }
+
+     @keyframes exampletextShow {
+         0% {
+             right: -30px;
+             opacity: 0;
+         }
+
+         15% {
+             right: -30px;
+             opacity: 0;
+         }
+
+         22% {
+             opacity: 1;
+             right: 0px;
+         }
+
+         100% {
+             opacity: 1;
+             right: 0px;
+         }
+     }
+
+     .baner {
+         width: 280px;
+         background-image: url("../imajes/fonSm2.jpg");
+         animation: examplesm 20s infinite ease-in-out;
+     }
+
+     @keyframes examplesm {
+         10% {
+             background-image: url("../imajes/fonSm1.jpg");
+         }
+
+         20% {
+             background-image: url("../imajes/fonSm2.jpg");
+         }
+
+         40% {
+             background-image: url("../imajes/fonSm3.jpg");
+         }
+
+         100% {
+             background-image: url("../imajes/fonSm3.jpg");
+         }
+     }
+
+     .twoElementBlock picture {
+         padding: 22px 5px 0 10px;
+         opacity: 0;
+         position: relative;
+         animation: exampleaugust 20s linear infinite;
+     }
+
+     @keyframes exampleaugust {
+         0% {
+             right: -30px;
+             opacity: 0;
+         }
+
+         20% {
+             right: -30px;
+             opacity: 0;
+         }
+
+         25% {
+             opacity: 1;
+             right: 0px;
+         }
+
+         100% {
+             opacity: 1;
+             right: 0px;
+         }
+     }
+
+     .threeElementBlock {
+         flex-direction: column;
+         position: relative;
+         animation: examplebottom 20s linear infinite;
+     }
+
+     @keyframes examplebottom {
+         0% {
+             position: relative;
+             overflow: hidden;
+             opacity: 0;
+
+         }
+
+         20% {
+             position: relative;
+             overflow: hidden;
+             opacity: 0;
+
+         }
+
+         40% {
+             position: relative;
+             overflow: hidden;
+             opacity: 0;
+         }
+
+         50% {
+             position: relative;
+             opacity: 1;
+
+         }
+
+         100% {
+             position: relative;
+             opacity: 1;
+
+         }
+     }
+
+     .twoElementBlockText p {
+         font-size: 26px;
+         line-height: 15px;
+         flex-direction: column;
+         display: flex;
+         width: 110px;
+
+     }
+
+     .twoElementBlockTextSpan span:first-child {
+         padding-bottom: 5px;
+     }
+
+     .twoElementBlockTextSpan span:nth-child(2) {
+         font-size: 19px;
+     }
+
+     .twoElementBlockTextSpan span:nth-child(3) {
+         font-size: 15px
+     }
+
+     .threeElementBlock a {
+         padding: 0 0 0 10px;
+     }
+
+     .twoElementBlockNumbr p {
+         display: none;
+     }
+
+     .threeElementBlockImg {
+         padding: 7px 0 3px 0;
+     }
+ }

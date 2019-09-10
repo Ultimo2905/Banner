@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+.divFlex {
+    display: flex;
+    align-items: center;
+}
+
+.baner {
+    width: 1024px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+.twoElementBlock img {
+    opacity: 0.7;
+}
+
+.firstElementBlock {
+    padding: 0 9% 0 5.5%;
+}
+
+.twoElementBlock {
+    flex-basis: 50%;
+}
+
+.twoElementBlockText {
+    max-width: 340px;
+}
+
+.twoElementBlockText p {
+    margin: 0;
+    color: #fff;
+    font-size: 39px;
+    line-height: 31px;
+}
+
+.twoElementBlockTextSpan span:first-child {
+    font-weight: bold;
+}
+
+.twoElementBlockTextSpan span:nth-child(2) {
+    color: #b5b5b5;
+}
+
+.twoElementBlockTextSpan span:nth-child(3) {
+    font-weight: bold;
+    font-size: 31px
+}
+
+.threeElementBlock {
+    flex-basis: 30%;
+}
+
+.threeElementBlock a {
+    height: 41px;
+    padding: 0 0 0 47px;
+}
+
+.threeElementBlockImg {
+    padding: 40px 0 0 0;
+}
+
+.buttonLink {
+    display: block;
+    animation: exampleBotton 3s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exampleBotton {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    5% {
+        transform: scale(0.75, 0.75);
+    }
+
+    10% {
+        transform: scale(1, 1);
+    }
+
+    20% {
+        transform: scale(0.75, 0.75);
+    }
+
+    30% {
+        transform: scale(1, 1);
+    }
+
+    40% {
+        transform: scale(0.75, 0.75);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
