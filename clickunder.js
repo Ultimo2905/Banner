@@ -15,7 +15,6 @@
 function clickUnder() {
 
     const shouldOpenAd = !localStorage.getItem('lastOpenedAdTime') || new Date() - new Date(localStorage.getItem('lastOpenedAdTime')) > 10000;
-    console.log(!localStorage.getItem('lastOpenedAdTime'),(new Date() - new Date(localStorage.getItem('lastOpenedAdTime')) > 10000))
    if (shouldOpenAd) {
    		localStorage.setItem('lastOpenedAdTime', new Date());
        window.open("https://www.youtube.com/");
